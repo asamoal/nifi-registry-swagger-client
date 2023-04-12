@@ -23,8 +23,8 @@ Name | Type | Description | Notes
 **defaultFlowFileExpiration** | **String** | The default FlowFile Expiration for this Process Group. |  [optional]
 **defaultBackPressureObjectThreshold** | **Long** | Default value used in this Process Group for the maximum number of objects that can be queued before back pressure is applied. |  [optional]
 **defaultBackPressureDataSizeThreshold** | **String** | Default value used in this Process Group for the maximum data size of objects that can be queued before back pressure is applied. |  [optional]
-**flowFileOutboundPolicy** | **String** | The FlowFile Outbound Policy for the Process Group |  [optional]
 **flowFileConcurrency** | **String** | The configured FlowFile Concurrency for the Process Group |  [optional]
+**flowFileOutboundPolicy** | **String** | The FlowFile Outbound Policy for the Process Group |  [optional]
 **componentType** | [**ComponentTypeEnum**](#ComponentTypeEnum) |  |  [optional]
 **groupIdentifier** | **String** | The ID of the Process Group that this component belongs to |  [optional]
 
